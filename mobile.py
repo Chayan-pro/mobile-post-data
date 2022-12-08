@@ -19,6 +19,7 @@ made= mobile_data.get('data')[2].get('made')
 
 exchange_rate = mobile_data.get('exchnage_rate')
 exchange_bdt = (exchange_rate*103)
+# mobile data varaition are success
 
 sentence = f'The {name_final} is made by {made}. The Price is {price}. Which is almost equal to {exchange_bdt} BDT' 
 print(sentence)
